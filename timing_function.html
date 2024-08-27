@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <title>Document</title>
+
+    <style>
+
+        div{
+            border : 1px solid black;
+            height : 100px;
+            width : 100px;
+            background-color: red;
+            transition: width 2s;
+        }
+
+
+
+#id1{
+
+    transition-timing-function: linear;
+}
+#id2{
+
+    transition-timing-function: ease;
+}
+#id3{
+
+    transition-timing-function: ease-in;
+    
+}
+
+#id4{
+
+    transition-timing-function: ease-in-out;
+}
+
+div:hover{
+
+    width : 400px;
+}
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="id1" > linear</div>
+    <div id="id2">ease </div>
+    <div id="id3">ease in </div>
+    <div id="id4">ease-in-out </div>
+<p> the easy-in-out is the best for users attraction</p>
+</body>
+
+</html>
